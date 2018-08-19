@@ -1,0 +1,42 @@
+table,td
+{
+    margin: 10px 0;
+    text-align:center;
+    padding: 2px 4px;
+    font: 15px Verdana;
+    background-color: black;
+
+}
+table{
+    width: 100%;
+}
+th {
+    margin: 0px 0;
+    background-color: #424242;
+    font-weight:bold;
+    color: green;
+}
+tr {
+    color: white;
+
+}
+
+  pagination-controls /deep/ .ngx-pagination .current {
+    color: white;
+    background-color: #10df10b4;
+    cursor: default;
+}
+pagination-controls /deep/ .ngx-pagination .pagination-next, 
+pagination-controls /deep/ .ngx-pagination .pagination-previous{
+    background-color: #10df10b4;
+}
+pagination-controls /deep/ .ngx-pagination .pagination-previous a::before,
+pagination-controls /deep/ .ngx-pagination .pagination-previous.disabled::before { 
+  content: '';
+  display: inline-block;
+  margin-right: 0.5rem; }
+  pagination-controls /deep/ .ngx-pagination .pagination-next a::after,
+pagination-controls /deep/ .ngx-pagination .pagination-next.disabled::after {
+  content: '';
+  display: inline-block;
+  margin-left: 0.5rem; }
